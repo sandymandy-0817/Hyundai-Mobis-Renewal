@@ -1,0 +1,180 @@
+html, body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "NanumGothic";
+}
+
+body.act-padding {
+  padding-top: 100px;
+}
+
+.act {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 1000;
+  transition: 1s;
+}
+
+.act-nav {
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 10px;
+  background-color: #fff;
+  height: 100px;
+}
+header h1, header nav, header div {
+  padding-top: 20px;
+}
+header h1 > a > img {
+  width: 70%;
+}
+header nav {
+  text-align: center;
+}
+header nav .gnb {
+  display: flex;
+}
+header nav .gnb .m_menu {
+  position: relative;
+}
+header nav .gnb .m_menu a {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 25px;
+}
+header nav .lnb {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px 5px;
+  z-index: 10;
+}
+header nav .lnb .s_menu {
+  flex-direction: column;
+  padding: 10px 5px;
+}
+header nav .lnb .s_menu li a {
+  font-size: 14px;
+  font-weight: normal;
+  width: 83px;
+  padding: 10px 0px;
+}
+header nav .lnb .s_menu li:hover a {
+  color: #1C4381;
+  font-weight: bold;
+}
+header nav .lnb .s_menu:nth-child(2) a {
+  width: 70px;
+}
+header nav .lnb .s_menu:nth-child(4) a {
+  width: 110px;
+}
+header nav .lnb .s_menu:nth-child(5) a {
+  width: 135px;
+}
+header nav .lnb .s_menu:nth-child(6) a {
+  width: 88px;
+}
+header nav .lnb .s_menu:last-child a {
+  width: 120px;
+}
+header div ul {
+  display: flex;
+}
+header div ul li {
+  padding: 10px;
+}
+header div ul li .fa-solid {
+  font-size: 26px;
+}
+header div ul li select {
+  padding: 5px 10px;
+  transform: translateY(-4px);
+  margin-left: 5px;
+}
+
+footer {
+  background-color: #1f1f1f;
+  padding: 60px 30px;
+  display: flex;
+}
+footer p, footer a, footer address {
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+}
+footer .motto {
+  font-weight: bold;
+  font-size: 2.5rem;
+  width: 550px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+footer address {
+  font-weight: normal;
+  color: #555555;
+}
+footer ul {
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+footer ul li > a {
+  color: #b1b1b1;
+}
+footer ul li:nth-child(2) > a {
+  color: #fff;
+  font-weight: bold;
+}
+footer ul li:hover > a {
+  color: #cecece;
+}
+footer .tel {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+footer .familysite {
+  position: relative;
+  width: 500px;
+  height: 30px;
+}
+footer .familysite label {
+  text-indent: -999999px;
+  overflow: hidden;
+  display: inline-block;
+  width: 1px;
+  height: 1px;
+  white-space: nowrap;
+}
+footer .familysite select {
+  background-color: #e4e4e4;
+  border: none;
+  padding: 5px 10px;
+  color: #141414;
+  font-family: "Amaranth";
+  position: absolute;
+  right: 5%;
+}
+footer .familysite option, footer .familysite optgroup {
+  background-color: #fff;
+}
+footer .familysite img {
+  width: 70px;
+  height: 50px;
+  margin-bottom: 60px;
+  position: absolute;
+  right: 5%;
+  transform: translateY(100%);
+}/*# sourceMappingURL=common.css.map */
